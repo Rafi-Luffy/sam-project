@@ -13,9 +13,10 @@ jobs:
     runs-on: ubuntu-latest
 
     # Define multiple Python versions to test against
-    strategy:
-      matrix:
-        python-version: [3.8, 3.9, 3.10, 3.11]
+strategy:
+  matrix:
+    python-version: [3.8, 3.9, 3.10, 3.11]
+
 
     # The actual steps to perform
     steps:
